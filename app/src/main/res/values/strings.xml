@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Concesionario</string>
+    <string name="registroDeCarros">Registro de carros</string>
+    <string name="Placa"> Placa</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="precio">Precio</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="mazda">Mazda</string>
+    <string name="kia">Kia</string>
+    <string name="toyota">Toyota</string>
+    <string name="rojo">Rojo</string>
+    <string name="azul">Azul</string>
+    <string name="blanco">Blanco</string>
+    <string name="negro">Negro</string>
+    <string name="dosmilDiecisiete">2017</string>
+    <string name="dosmilDieciseis">2016</string>
+    <string name="dosmilQuince">2015</string>
+    <string name="dosmilCatorce">2014</string>
+    <string name="mensajeRegistro">Se ha registrado el carro con exito</string>
+    <string name="registrar">REGISTRAR CARROS</string>
+    <string name="listar">LISTAR CARROS</string>
+    <string name="reportes">REPORTES</string>
+    <string name="NoDeCarrosRegistrados">No de carros registrados</string>
+    <string name="NoDeCarrosPorMarcas">El numero de carros registrados por la marca</string>
+    <string name="NoDeCarrosPorColor">No de carros registrados por el color</string>
+    <string name="RepTotalRegistrados">El numero de autos registrados es: </string>
+    <string name="RepPorMarcas">El numero de autos de la marca </string>
+    <string name="RepPorColor">El numero de autos de color </string>
+    <string name="Es">es: </string>
+    <string name="error1">Digite la placa por favor</string>
+    <string name="error2">Digite el precio por favor</string>
+    <string name="error3">No hay carros registrados: </string>
+
+    <string-array name="marcas">
+        <item>@string/kia</item>
+        <item>@string/toyota</item>
+        <item>@string/mazda</item>
+        <item>@string/chevrolet</item>
+    </string-array>
+    <string-array name="colores">
+        <item>@string/rojo</item>
+        <item>@string/azul</item>
+        <item>@string/blanco</item>
+        <item>@string/negro</item>
+    </string-array>
+    <string-array name="modelos">
+        <item>@string/dosmilDiecisiete</item>
+        <item>@string/dosmilDieciseis</item>
+        <item>@string/dosmilQuince</item>
+        <item>@string/dosmilCatorce</item>
+    </string-array>
+    <string-array name="opciones">
+
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        
+    </string-array>
+    <string-array name="reportes">
+
+        <item>@string/NoDeCarrosRegistrados</item>
+        <item>@string/NoDeCarrosPorMarcas</item>
+        <item>@string/NoDeCarrosPorColor</item>
+    </string-array>
+</resources>

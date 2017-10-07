@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Concessionaire "</string>
+    <string name="Es">is:</string>
+    <string name="NoDeCarrosPorColor">Number of cars registered by color</string>
+    <string name="dosmilCatorce">2014</string>
+    <string name="dosmilDieciseis">2016</string>
+    <string name="dosmilDiecisiete">2017</string>
+    <string name="dosmilQuince">2015</string>
+    <string name="color">Color</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="borrar">Delete</string>
+    <string name="blanco">White</string>
+    <string name="azul">Blue</string>
+    <string name="Placa">Car plate</string>
+    <string name="NoDeCarrosPorMarcas">The number of cars registered</string>
+    <string name="NoDeCarrosRegistrados">Number of the car registered</string>
+    <string name="RepPorColor">The number of cars of color</string>
+    <string name="RepPorMarcas">The number of cars of the brand</string>
+    <string name="RepTotalRegistrados">The number of cars registered is:</string>
+    <string name="error1">Write the plaque please</string>
+    <string name="error2">Type the price please</string>
+    <string name="error3">No cars registered</string>
+    <string name="guardar">Save</string>
+    <string name="kia">Kia</string>
+    <string name="listar">List cars</string>
+    <string name="marca">Brand</string>
+    <string name="mazda">Mazda</string>
+    <string name="mensajeRegistro">Successful car registration</string>
+    <string name="modelo">Model</string>
+    <string name="negro">Black</string>
+    <string name="precio">Price</string>
+    <string name="registrar">Register cars</string>
+    <string name="registroDeCarros">Car registration</string>
+    <string name="reportes">Report</string>
+    <string name="rojo">Red</string>
+    <string name="toyota">Toyota</string>
+</resources>
