@@ -23,19 +23,21 @@
             android:layout_alignParentBottom="true">
 
             <TextView
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView"
-                android:textAlignment="center"
                 android:text="@string/registroDeCarros"
-                android:textSize="30sp" />
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:text="@string/Placa"
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textSize="18sp" />
+                android:text="@string/Placa"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -45,11 +47,12 @@
                 android:id="@+id/cajaPlaca" />
 
             <TextView
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView3"
                 android:text="@string/marca"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Spinner
                 android:layout_width="match_parent"
@@ -57,11 +60,12 @@
                 android:id="@+id/cmbMarca" />
 
             <TextView
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView4"
                 android:text="@string/modelo"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Spinner
                 android:layout_width="match_parent"
@@ -72,7 +76,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/color"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Spinner
                 android:layout_width="match_parent"
@@ -80,11 +85,12 @@
                 android:id="@+id/cmbColor" />
 
             <TextView
-                android:text="@string/precio"
+                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView5"
-                android:textSize="18sp" />
+                android:text="@string/precio"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:layout_width="match_parent"

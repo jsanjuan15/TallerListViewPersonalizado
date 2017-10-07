@@ -9,48 +9,64 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/imgCarro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/carro1"
-            android:id="@+id/imgCarro" />
+            app:srcCompat="@drawable/carro1" />
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="49dp"
-            android:layout_marginTop="13dp"
-            android:id="@+id/txtPlaca"
-            android:textSize="18sp" />
+            android:orientation="vertical">
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txtPlaca"
-            android:layout_alignStart="@+id/txtPlaca"
-            android:id="@+id/txtMarca"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/txtPlaca"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="49dp"
+                android:layout_marginTop="13dp"
+                android:text="TextView"
+                android:textAlignment="viewEnd"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/txtMarca"
-            android:id="@+id/txtModelo"
-            android:layout_below="@+id/txtMarca"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/txtMarca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtPlaca"
+                android:layout_below="@+id/txtPlaca"
+                android:text="TextView"
+                android:textAlignment="viewEnd"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txtModelo"
-            android:layout_alignStart="@+id/txtModelo"
-            android:id="@+id/txtPrecio"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/txtModelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtMarca"
+                android:layout_below="@+id/txtMarca"
+                android:text="TextView"
+                android:textAlignment="viewEnd"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/txtModelo"
+                android:layout_below="@+id/txtModelo"
+                android:text="TextView"
+                android:textAlignment="viewEnd"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
     </RelativeLayout>
 </LinearLayout>
